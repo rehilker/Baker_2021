@@ -38,7 +38,7 @@ def fasta2dict(fil):
     return dic
 
 #Replace the underline with the name of your text file in fasta format
-new = fasta2dict("dataset.txt")
+new = fasta2dict("_.txt")
 
 def HammingDistance(seq,con):
     count = 0
